@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Liste de mes build Warframe</title>
+	<link rel="stylesheet" href="style.tp10.css">
+    <script src="TP10.js"></script>
+  </head>
+  
+<body>
+
+    <body onLoad="initialiserPage()">
+        <main>
+            <section name="1er">
+                <!-- Cette section contient le formulaire permettant d'encoder les données -->
+                <br> 
+                <form action="#" onSubmit="genererTable(); return false">
+                    <select id="warframe">
+                      <option selected class = "b1">Atlas</option>
+                      <option class = "zephyr">Zephyr</option>
+                      <option class = "nezha">Nezha</option>
+                      <option class = "all">All</option>
+
+                    </select>
+                        <input type="submit" value="Search"
+                        onclick="return">
+                    </select>
+                </form>
+            </section>
+            <section name="2eme">
+                <!-- Cette section contient la table affichant les données encodées -->
+                <div class = "tableau">
+                    <table >
+                            <thead >
+                            </thead>
+                            <tbody id="passages">
+         
+                            </tbody>
+                    </table>
+                    
+                </div>
+            </section>
+        </main>
+        </body>
+        </html>
+        
