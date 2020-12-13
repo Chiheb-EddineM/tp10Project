@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Liste de mes build Warframe</title>
+	<link rel="stylesheet" href="style.tp10.css">
+    <script src="tp10.js"></script>
+  </head>
+  
+<body>
+
+    <body onLoad="initialiserPage()">
+        <main>
+            <section name="1er">
+                <!-- Cette section contient le formulaire permettant d'encoder les données -->
+                <br> 
+                <div class=Warframe>
+                <form action="#" onSubmit="genererWarframe(); return false">
+                    <select id="warframe">
+                      <option selected >---Select a frame---</option>
+                      <option class = "all">All</option>
+
+                      <option >Ash</option>
+                      <option >Atlas</option>
+                      <option >Chroma</option>
+                      <option >Ember</option>
+                      <option >Equinox</option>
+                      <option >Excalibur Umbra</option>
+                      <option >Frost</option>
+                      <option >Garuda</option>
+                      <option >Inaros</option>
+                      <option >Ivara</option>
+                      <option >Mesa</option>
+                      <option >Nekros</option>
+                      <option >Nezha</option>
+                      <option >Nova</option>
+                      <option >Rhino</option>
+                      <option >Saryn</option>
+                      <option >Titania</option>
+                      <option >Wukong</option>
+                      <option >Zephyr</option>
+                      
+                      
+
+                   
+                        <input id=poursuivre2 type="submit" value="Search"
+                        onclick="return">
+                    </select>
+                    
+                </form>
+            </div>
+                <div class=Missions>
+                    <form  action="#" onSubmit="genererMission(); return false">
+                        <select id="missions">
+                          <option selected >---Select a mission---</option>
+                          <option class = "all">All</option>
+
+                          <option >Survie</option>
+                          <option >Defense</option>
+                          <option >Assassinat</option>
+                          <option >Espionnage</option>
+                          <option >Support</option>
+                          <option >Burst</option>
+
+                          
+                          
+                                
+                        
+                            <input id=poursuivre type="submit" value="Search"
+                            onclick="return">
+                        </select>
+                    </form>
+                    </div>
+            </section>
+
+
+            <section name="2eme">
+                <!-- Cette section contient la table affichant les données encodées -->
+                <div class = "tableau">
+                    <table >
+                            <thead >
+                            </thead>
+                            <tbody id="passages">
+         
+                            </tbody>
+                    </table>
+                    
+                </div>
+            </section>
+        </main>
+        </body>
+        </html>
+        
