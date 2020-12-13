@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Liste de mes build Warframe</title>
+	<link rel="stylesheet" href="style.tp10.css">
+    <script src="tp10.js"></script>
+  </head>
+  
+<body>
+
+    <body onLoad="initialiserPage()">
+        <main>
+            <section name="1er">
+                <!-- Cette section contient le formulaire permettant d'encoder les données -->
+                <br> 
+                <div class=Warframe>
+                <form class="myList" action="#" onSubmit="genererWarframe(); return false">
+                    <select id="warframe">
+                      <option selected > ----Mes Builds----</option>
+                      <option class = "all">All</option>
+
+                      <option >Ash</option>
+                      <option >Atlas</option>
+                      <option >Chroma</option>
+                      <option >Ember</option>
+                      <option >Equinox</option>
+                      <option >Excalibur Umbra</option>
+                      <option >Frost</option>
+                      <option >Garuda</option>
+                      <option >Inaros</option>
+                      <option >Ivara</option>
+                      <option >Mesa</option>
+                      <option >Nekros</option>
+                      <option >Nezha</option>
+                      <option >Nova</option>
+                      <option >Rhino</option>
+                      <option >Saryn</option>
+                      <option >Titania</option>
+                      <option >Wukong</option>
+                      <option >Zephyr</option>
+
+                        <input id=poursuivre2 type="submit" value="Search"
+                        onclick="return">
+                    </select>
+                    
+                </form>
+                <hr>
+            </div>
+                <div class=Missions>
+                    <h2>Entrer un nouveau Build</h2>
+                        <form role="search" class="war" action="#" onSubmit="genererUneWarframe(this); return false">
+                            <fieldset >
+                                <legend>Entrer Une </legend>
+                                <label for="nom">Warframe:</label>
+                                <input type="text" id="nom" name="nom" required
+                                minlength="3"
+                                placeholder="Choose a Warframe…" >
+
+                            </fieldset>                                            
+                        </form>
+                    <form role="search" class="equip" action="#" onSubmit="genererUneWarframe(this); return false">
+                        <fieldset >
+                            <legend>Entrer Un </legend>
+                            <label for="nom">Equipement:</label>
+                            <input type="text" id="equip" name="equip"
+                            minlength="2"
+                            aria-label="Rechercher parmi le contenu du site"
+                            required placeholder="Choose a weapon…">
+                            
+                        </fieldset>
+                        <input type="submit" value="Submit">
+                    </form>
+                    <form role="search" class="quest" action="#" onSubmit="genererUneWarframe(this); return false">
+                        <fieldset >
+                            <legend>Entrer Une </legend>
+                            <label for="nom">Mission:</label>
+                            <input type="text" id="util" name="util" minlength="5"
+                            required placeholder="Choose a quest…"
+                            >
+                        </fieldset>
+                        
+
+                    </form>
+                    
+                </div>
+            </section>
+
+
+            <section name="2eme">
+                <!-- Cette section contient la table affichant les données encodées -->
+                <div class = "tableau">
+                    <table >
+                            <thead >
+                            </thead>
+                            <tbody id="passages">
+         
+                            </tbody>
+                    </table>
+                    
+                </div>
+            </section>
+
+        </main>      
+         <hr>
+        <div class="lien"> 
+        <a href="https://github.com/Chiheb-EddineM/tp10Project" ><img src="github.jpg" height="50" width="75" alt="link"></a>
+        </div> 
+        </body>
+
+
+        </html>
+        

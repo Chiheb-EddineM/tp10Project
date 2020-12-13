@@ -1,0 +1,111 @@
+body{
+    font-size: large;
+    width:630px;
+    background-image:url(grand_master_warframe_wallpaper_4k_by_tinajra_daashr8-fullview.JPG);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position:center center;
+    margin:0 auto;
+    font-family:Snell Roundhand, cursive;
+    font-weight: 300 ; 
+    color:rgb(255, 255, 255);
+    background-color:white;
+    text-align: center;
+
+    }
+select
+    {
+        font-size: x-large;
+        background-color:black;
+        color: cyan;
+        text-align: center;
+    }
+
+.myList
+{
+    left: 50%;
+
+}
+table
+    {
+        text-align: center;
+        color: rgb(139, 49, 49);
+        border-width:5px;
+        border-color:rgb(249, 255, 197);
+        border-style:ridge;
+    }
+option 
+    {
+            background-color:rgba(255, 255, 255, 0.486);
+    }
+th
+    {
+        color: rgb(249, 255, 197);
+        width:230px;
+    }
+td
+    {
+    width : 1pt;
+    border-color:rgb(113, 126, 3);
+    background-color:rgba(255, 255, 255, 0.486);
+    }
+.all 
+{
+    color: darkblue;
+}
+
+
+
+.Warframe
+{
+position: relative;
+}
+
+table 
+{
+    clear: both;
+}
+
+fieldset
+{
+    width: 50px;
+    color: rgb(251, 255, 197);
+    border-color:rgba(250, 246, 0, 0.979);
+
+}
+
+
+.war
+{
+    float: left;
+}
+
+.equip
+{
+    float: left;
+}
+
+.quest
+{
+    float: left;
+}
+h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(194, 248, 0, 0.712);
+    text-decoration: underline;
+}
+.Missions
+{
+    border-color:rgba(250, 0, 0, 0.979);
+}
+.lien
+{
+    border: olive;
+    border-width:5px;
+    border-style:ridge;
+    width: 76px;
+    height: 51px;
+    left: 50%;
+
+}
